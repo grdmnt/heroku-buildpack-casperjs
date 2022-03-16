@@ -9,6 +9,8 @@ This fork now resembles more to [stomita/heroku-buildpack-phantomjs](https://git
 **Note2**: this buildpack checks out the latest CasperJS on `master` branch.  
 If you need a specific version, please change `CASPER_VERSION` in [bin/compile](bin/compile#L12).
 
+**Note3**: this fork updates usage of deprecated git protocol, from git:// to https://
+
 > Now that [phantomjs](https://www.npmjs.com/package/phantomjs-prebuilt) and [casperjs](https://www.npmjs.com/package/casperjs) are both available on npm, it is easier to use [Node.JS buildpack](https://devcenter.heroku.com/articles/nodejs-support) to install them.
 
 ## Usage
